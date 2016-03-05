@@ -29,7 +29,8 @@ h1, h4, h5
   line-height: 1.5
   overflow-x: hidden
   background: $accent-color url("../img/header.jpg") no-repeat
-  background-size: 100%
+  color: $black-color
+  background-size: cover
   background-position-y: -126px
   background-position-x: 19px
   opacity: 0.99    // for negative z-index in .but
@@ -45,12 +46,22 @@ h1, h4, h5
   font-size: 18px
   text-align: center
 
-
   .menu-item
     list-style: none
     float: left
-    padding: 15px 30px
 
+  a
+    color: $black-color
+    text-decoration: none
+    display: inline-block
+    padding: 12px 30px
+    margin-top: 5px
+
+    &:hover
+      text-decoration: none
+      background-color: $black-color
+      color: $accent-color
+      border-radius: 19px
 
 .block-img
   display: block
