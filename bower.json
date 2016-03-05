@@ -1,0 +1,23 @@
+{
+  "name": "pink-donut",
+  "authors": [
+    "ksenyWhite <lissalissa@gmail.com>"
+  ],
+  "description": "brightfull template",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "html",
+    "template",
+    "pink-donut"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

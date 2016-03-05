@@ -1,0 +1,95 @@
+@import "fonts"
+
+// 1. main variables
+// 2. main mixins
+
+$accent-color: #fbd100
+$black-color: #000
+$body-back-color: #fff
+$contact-back-color: #d2eae3
+
+section
+  margin: 0 170px
+
+  h1
+    text-align: center
+    font-size: 60px
+    line-height: 1.15
+    letter-spacing: 1px
+
+h1, h4, h5
+  font-family: BIGJOHN, sans-serif
+
+
+.header-wrapper
+  font-family: "MyriadProRegular", sans-serif
+  font-size: 16px
+  min-width: 320px
+  position: relative
+  line-height: 1.5
+  overflow-x: hidden
+  background: $accent-color url("../img/header.jpg") no-repeat
+  background-size: 100%
+  background-position-y: -126px
+  background-position-x: 19px
+  opacity: 0.99    // for negative z-index in .but
+
+.h-wrapper
+  margin-top: 47px
+  margin-bottom: 80px
+
+.menu
+  display: inline-block
+  margin: 55px 0
+  font-family: BIGJOHN, sans-serif
+  font-size: 18px
+  text-align: center
+
+
+  .menu-item
+    list-style: none
+    float: left
+    padding: 15px 30px
+
+
+.block-img
+  display: block
+  margin: auto
+
+.glass-img
+  margin-bottom: 60px
+
+.but
+  font-family: BIGJOHN, sans-serif
+  font-size: 18px
+  outline: none
+  border: 4px solid $black-color
+  border-radius: 20px
+  padding: 7px 30px
+  background: #fad663
+  position: relative
+  display: block
+  margin: auto
+  margin-bottom: 50px
+
+.but:before
+  content: ""
+  display: block
+  position: absolute
+  width: 300px
+  height: 5px
+  background: $black-color
+  left: -55%
+  top: 40%
+  z-index: -1
+
+.but:after
+  content: ""
+  display: block
+  position: absolute
+  width: 300px
+  height: 5px
+  background: $black-color
+  left: -35%
+  top: 60%
+  z-index: -1
