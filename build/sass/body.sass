@@ -1,7 +1,83 @@
+$accent-color: #fbd100
+$black-color: #000
+$body-back-color: #fff
+$contact-back-color: #d2eae3
+
 body
   font-family: "MyriadProRegular", sans-serif !important
-  font-size: 16px
+  font-size: 18px !important
   min-width: 320px
   position: relative
   line-height: 1.5
   overflow-x: hidden
+  color: $black-color
+
+
+h4
+  letter-spacing: 1px
+  font-size: 76.62px
+  display: block
+  position: relative
+
+  &:before
+    content: ""
+    display: block
+    position: absolute
+    width: 483px
+    height: 5px
+    background: #000
+    left: 184px
+    bottom: -21px
+
+  &:after
+    content: ""
+    display: block
+    position: absolute
+    width: 483px
+    height: 5px
+    background: #000
+    left: 229px
+    bottom: -31px
+
+
+.whatido
+  position: relative
+
+  h4
+    padding-left: 167px
+    margin: 86px 0 0 0
+
+  p
+    margin-top: 118px
+    margin-left: -23px
+    line-height: 1.6
+
+.mrgn-wrapper
+  margin: 120px 0
+
+
+.whatido-content-wrapper
+  margin-top: 600px
+  position: relative
+
+  h5
+    text-align: center
+    font-size: 18px
+    margin: 30px
+
+
+.whatido-content
+  padding: 0 30px
+  position: absolute
+  bottom: 0
+
+  .text-block
+    text-align: center
+    font-size: 16px
+
+  .dashed-line
+    width: 5px
+    height: 65px
+    margin-top: 43px
+    margin-bottom: 43px
+    background: url("../img/dashed.png") no-repeat
